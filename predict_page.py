@@ -17,6 +17,7 @@ def load_image(image):
 
 
 def main():
+    modeltrain()
     st.title("File Upload Tutorial")
 
     menu = ["Image"]
