@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 import keras_applications
-from keras.models import load_model
-from keras.preprocessing.image import load_img
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import load_img
 from keras.preprocessing.image import image
 from keras.applications.vgg16 import preprocess_input
 from keras.applications.vgg16 import decode_predictions
