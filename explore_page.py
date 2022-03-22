@@ -9,9 +9,9 @@ img_width, img_height = 224, 224
 
 #training
 def modeltrain():
-    train_data_dir = r"H:\Suri_Amrita\AI_Amrita\hackathon\train"
+    train_data_dir = r"hackathon\train"
 
-    validation_data_dir = r"H:\Suri_Amrita\AI_Amrita\hackathon\test"
+    validation_data_dir = r"hackathon\test"
     nb_train_samples = 47
     nb_validation_samples = 10
     epochs = 100
