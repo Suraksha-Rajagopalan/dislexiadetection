@@ -19,8 +19,7 @@ import sys
 import time
 from textblob import Word
 import language_tool_python
-tool = language_tool_python.LanguageTool('en-US')
-
+tool = language_tool_python.LanguageToolPublicAPI('en-US')
 subscription_key = "1780f5636509411da43040b70b5d2e22"
 endpoint = "https://prana-------------v.cognitiveservices.azure.com/"
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
