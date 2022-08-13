@@ -5,4 +5,5 @@ Pillow==9.0.1
 azure-cognitiveservices-vision-computervision==0.9.0
 language-tool-python==2.7.1
 textblob
+install-jdk==0.3.0
 streamlit==1.7.0
