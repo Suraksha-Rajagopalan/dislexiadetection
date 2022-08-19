@@ -2,6 +2,7 @@ keras==2.8.0
 tensorflow==2.8.0
 numpy==1.21.6
 Pillow==9.0.1
+tkinter==8.6
 azure-cognitiveservices-vision-computervision==0.9.0
 language-tool-python==2.7.1
 textblob
